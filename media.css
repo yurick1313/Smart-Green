@@ -1,5 +1,19 @@
 @media(max-width:1024px){
-	.header{
-		height: 70vh;
+	
+}
+@media(max-width:768px){
+	.header-title{
+		margin-top: 80px !important;
 	}
+	.header-title h1{
+		font-weight: 200;
+		font-size: 39px !important;
+	}
+	.header-title h2{
+		font-size: 15px !important; 
+		padding-bottom: 0 !important;
+}
+.header-choice{
+
+}
 }
