@@ -72,9 +72,20 @@ table {
 	color: white;
 	font-size: 24px;
 	text-decoration: none;
+	padding-right: 15px;
 }
 .burger{
-	padding-left: 30px;
+	background: url(./img/burger\ white.svg);
+	height: 27px;
+	width: 38px;
+	border-radius: nullpx;
+}
+.burger:hover{
+	background: url(./img/burger\ yellow.svg);
+	height: 27px;
+	width: 38px;
+	border-radius: nullpx;
+	color: #FFC50E;
 }
 .navbar-info{
 	display: flex;
