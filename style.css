@@ -50,7 +50,7 @@ table {
     border-spacing: 0;
 }
 #header{
-	background: linear-gradient(#000000c5, #00000098), url(./img/bg-header.png);
+	background: linear-gradient(#000000c3,#000000ce), url(./img/bg-header.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -119,55 +119,41 @@ position: relative;
 	left: 0;
 	top: 3px;
 }
+.header-buttons{
+	display: flex;
+	align-items: center;
+}
 .sign-up{
-	width: 220px;
+	background: url(./img/sign\ up.svg);
 	height: 44px;
-	background: #FFC50E;
+	width: 220px;
 	border-radius: 2px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 16px;
-	text-align: center;
-	color: #333333;
-	border: #FFC50E;
-	margin-right: 30px;
-	cursor: pointer;
+	margin-right: 20px;
+	border: 1px solid #FFC50E;
 }
 .sign-up:hover{
-	background: #FF9900;
+	background: url(./img/sign\ up\ yellow.svg);
+	height: 44px;
+	width: 220px;
+	border-radius: 2px;
 	border: 1px solid #FF9900;
+	transition: 0.3s;
 }
 .download{
-	width: 220px;
+	background: url(./img/download.svg);
 	height: 44px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 16px;
-	text-align: center;
-	color: #FFC50E;
+	width: 220px;
 	border: 1px solid #FFC50E;
 	border-radius: 2px;
-	background-color: rgba(39,47,51,0.5);
 	cursor: pointer;
 }
 .download:hover{
-	background: url(./img/download.svg)
-}
-.download:after{
-	content:'';
-	background: url(./img/pdf.png);
-	width: 18px;
-	height: 20px;
-	position: absolute;
-	top: 8px;
-	right: 10px;
-}
-.download{
-	position: relative;
+	background: url(./img/download\ yellow.svg);
+	height: 44px;
+	width: 220px;
+	border-radius: 2px;
+	border: 1px solid #FFC50E;
+	transition: 0.3s;
 }
 .lern-more{
 	background: url(./img/lern-more.svg);
@@ -186,7 +172,6 @@ position: relative;
 	justify-content: space-between;	
 	align-items: center;
 	width: 80%;
-	cursor: pointer;
 	margin-top: 50px;
 }
 .header-ctrip{
@@ -195,15 +180,15 @@ position: relative;
 	opacity: 0.5;
 	margin: 50px 0px 30px;
 }
-.header-description{
+.header-description-icon{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-.header-description>div{
+.header-description-icon>div{
 	height: 50px;
 }
-.header-description p{
+.header-description-icon p{
 color: #FFFFFF;
 font-family: Roboto;
 font-size: 16px;
@@ -213,38 +198,38 @@ letter-spacing: 0em;
 text-align: left;
 padding: 15px 0px 0px 50px;
 }
-.tree{
+.icon-tree{
 	background: url(./img/tree.svg);
 	background-repeat: no-repeat;
 }
-.tree:hover{
+.icon-tree:hover{
 	background: url(./img/tree\ green.svg);
 	background-repeat: no-repeat;
 	transition: 0.5s;
 }
-.house{
+.icon-house{
 	background: url(./img/house.svg);
 	background-repeat: no-repeat;
 }
-.house:hover{
+.icon-house:hover{
 	background: url(./img/house\ green.svg);
 	background-repeat: no-repeat;
 	transition: 0.5s;
 }
-.shop{
+.icon-shop{
 	background: url(./img/shop.svg);
 	background-repeat: no-repeat;
 }
-.shop:hover{
+.icon-shop:hover{
 	background: url(./img/shop\ green.svg);
 	background-repeat: no-repeat;
 	transition: 0.5s;
 }
-.map{
+.icon-map{
 	background: url(./img/map.svg);
 	background-repeat: no-repeat;
 }
-.map:hover{
+.icon-map:hover{
 	background: url(./img/map\ green.svg);
 	background-repeat: no-repeat;
 	transition: 0.5s;
