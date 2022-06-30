@@ -201,7 +201,7 @@ position: relative;
 }
 .header-description-icon p{
 color: #FFFFFF;
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 16px;
 font-weight: 400;
 line-height: 100%;
@@ -245,3 +245,224 @@ padding: 15px 0px 0px 50px;
 	background-repeat: no-repeat;
 	transition: 0.5s;
 }
+.project-description{
+	padding: 80px 0 80px;
+}
+.regarding-the-project{
+	max-width: 1170px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.respecting-project-title h3{
+	font-family: 'Roboto';
+	font-size: 60px;
+	font-weight: 300;
+	line-height: 70px;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: #333333;
+	text-transform: uppercase;
+}
+.respecting-project-title h3:after{
+	content:'';
+	background: url(./img/Green\ Line.svg);
+	height: 0px;
+	border: 1px solid #77B82A;
+ 	width: 103px;
+	display: block;
+	position: absolute;
+	right: 50%;	
+	margin-right: -35px;
+}
+.respecting-project-title{
+	position: relative;
+	max-width: 1170px;
+	margin: auto;
+	padding-bottom: 100px;
+}
+.planning{
+	background: url(./img/Plaining\ 1.svg);
+	height: 565.6830444335938px;
+	width: 769.999755859375px;
+	border-radius: 0px;
+	position: sticky;
+	top: 0;
+}
+.info{
+	width: 50%;
+	padding-right: 20px;
+}
+.info-about-green h6{
+	font-family: 'Roboto-Regular';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #333;
+	text-transform: uppercase;
+}
+.info-about-green p{
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000000;
+	padding: 20px 0 30px 0;
+}
+.info-about-placing p{
+	font-family: 'Roboto-Regular';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	padding-bottom: 30px;
+}
+.info-about-placing ul li{
+	flex-wrap: wrap;
+	font-family: 'Roboto-Regular';
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 1.6;
+	letter-spacing: 0em;
+	color: #000000;	
+	position: relative;
+	padding-left: 20px;
+}
+.info-about-placing ul li:before{
+	content:'';
+	background-color: #77B82A;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+.info-about-houses h6{
+	font-family: 'Roboto-Regular';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #333333;
+	padding: 50px 0 30px 0;
+}
+.info-about-houses ul li{
+	position: relative;
+	line-height: 1.8;
+	font-family: 'Roboto-Regelar';
+	font-style: normal;
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;
+	padding-left: 40px;
+}
+.block-a::before{
+	content: '';
+	background: url(./img/23.svg);
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	color: #77B82A;
+	width: 302px;
+	height: 265px;
+	background-repeat: no-repeat;
+	text-align: right;
+}
+.block-b::after{
+	content: '';
+	background: url(./img/150.svg);
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	position: absolute;
+	left: -15px;
+	top: 15px;
+	color: #77B82A;
+	background-repeat: no-repeat;
+	width: 49px;
+	height: 33px;
+}
+.block-c::before{
+	content: '';
+	background: url(./img/10.svg);
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	position: absolute;
+	left: 0;
+	top: 13px;
+	color: #77B82A;
+	background-repeat: no-repeat;
+	width: 33px;
+	height: 33px;
+}
+.block-e::before{
+	content: '';
+	background: url(./img/12.svg);
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	color: #77B82A;
+	background-repeat: no-repeat;
+	width: 33px;
+	height: 33px;
+}
+.block-f::before{
+	content: '';
+	background: url(./img/1.svg);
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	position: absolute;
+	left: 18px;
+	top: 15px;
+	color: #77B82A;
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 33px;
+}
+.info-about-service h6{
+	font-family: 'Roboto-Regular';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #333333;
+	height: 28px;
+	width: 355px;
+	padding: 30px 0 60px 0;
+}
+.info-about-service p{
+	font-family: 'Roboto-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 24px;
+	color: #000000;
+
+}
+
+
