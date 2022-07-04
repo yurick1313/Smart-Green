@@ -644,11 +644,6 @@ padding: 15px 0px 0px 50px;
 	background: url(./img/bg\ gallery.png) , url(./img/Gallery\ f.png);
 	transition: 1s;
 }
-.button-zoom:hover{
-	background: url(./img/zoom-in\ \(1\)\ 1.svg);
-	width: 34px;
-	height: 34px;
-	
-}
+
 
 
